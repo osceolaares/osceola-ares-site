@@ -7,9 +7,9 @@ enableRobotsTXT: true
 timeout: 120s
 enableEmoji: true
 
-title_sections: true # when false, remove the sections from the title.
-title_sections_depth: 0 # the depth of sections on the title.
-title_sections_depth_dir: end # when start, the depth is counting from the root sections.
+# title_sections: true # when false, remove the sections from the title.
+# title_sections_depth: 0 # the depth of sections on the title.
+# title_sections_depth_dir: end # when start, the depth is counting from the root sections.
 
 permalinks:
   blog: /blog/:year/:month/:title
@@ -60,9 +60,9 @@ related:
   threshold: 10 # for testing, increase it to suit your case.
   toLower: false
 
-security:
-  funcs:
-    getenv:
-      - ^HUGO
-      - CI$
-      - PWD
+# security:
+#   funcs:
+#     getenv:
+#       - ^HUGO
+#       - CI$
+#       - PWD

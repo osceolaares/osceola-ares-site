@@ -23,6 +23,7 @@ hb:
       github: osceolaares
       bluesky: osceolacountyares.org
       rss: true
+    powered_by: false
   blog:
     list_cols_md: 2
     list_cols_lg: 3
@@ -40,8 +41,7 @@ hb:
       width: .35 # the width of sidebar.
       position: start # the sidebar position: start (left) or end (right).
       profile:
-        # title: Profile title other than site title.
-        # description: Profile description other than site description.
+        title: Osceola ARES
         avatar_size: 120
         company: KG4EOC
         location: Osceola County, FL

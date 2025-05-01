@@ -7,7 +7,6 @@ noindex: false
 featured: false
 pinned: false
 comments: false
-layout: news
 series:
  - News
 categories:
