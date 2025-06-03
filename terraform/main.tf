@@ -1,6 +1,6 @@
 module "cdn" {
   source  = "cloudposse/cloudfront-s3-cdn/aws"
-  version = "0.97.0"
+  version = "0.98.0"
 
   name                        = "cdn"
   comment                     = var.comment
