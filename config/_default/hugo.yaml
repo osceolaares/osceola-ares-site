@@ -1,4 +1,4 @@
-baseURL: https://osceolaares.local/
+# baseURL: https://osceolaares.local/
 title: Osceola ARES
 copyright: "Copyright © 2022-{year} Osceola Amateur Radio Emergency Services"
 defaultContentLanguage: en
