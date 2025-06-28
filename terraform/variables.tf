@@ -1,13 +1,18 @@
 variable "gh_action_role" {
-  type        = string
   description = "AWS IAM ARN for Terraform GitHub Actions"
+  type        = string
+}
+
+variable "repository" {
+  description = "Source repository"
+  type        = string
 }
 
 variable "domain_name" {
-  description = "AWS Route53 Hosted Zone domain name"
+  description = "The domain name to host site"
   type        = string
 }
-
+  
 variable "comment" {
   description = "AWS Route53 Hosted Zone comment"
   type        = string
@@ -83,4 +88,10 @@ variable "host_name" {
   description = "The host name for the site"
   type        = string
   default     = null
+}
+
+variable "amplify_redeploy_schedule_expression" {
+  description = "The schedule expression for the Amplify redeploy event rule (default: every day at 6am UTC)"
+  type        = string
+  default     = "cron(0 6 * * ? *)"
 }
