@@ -2,12 +2,14 @@
 # Lines starting with '#' are comments.
 
 # Set the main maintainers as code owners for everything in the repo:
-*       @osceolaares
+*       @jbouse
 
-/.github/CODEOWNERS @jbouse
-/terraform/    @jbouse
 /.devcontainer/ @jbouse
-/assets/      @osceolaares/editors
-/content/      @osceolaares/editors
-/data/        @osceolaares/editors
-/static/      @osceolaares/editors
+/.github/       @jbouse
+/config/        @jbouse
+/terraform/     @jbouse
+
+/assets/    @osceolaares/editors
+/content/   @osceolaares/editors
+/data/      @osceolaares/editors
+/static/    @osceolaares/editors
