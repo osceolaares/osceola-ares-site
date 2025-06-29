@@ -6,7 +6,7 @@ resource "aws_amplify_app" "website" {
   access_token      = var.gh_access_token
 
   environment_variables = {
-    BASEURL = var.domain_name
+    BASEURL = local.baseurl
   }
 
   custom_rule {
@@ -53,4 +53,8 @@ resource "aws_amplify_domain_association" "website" {
   lifecycle {
     ignore_changes = [sub_domain]
   }
+}
+
+locals {
+  baseurl = join(".", compact([var.host_name, aws_route53_zone.this.name]))
 }
