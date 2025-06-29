@@ -3,7 +3,6 @@ resource "aws_amplify_app" "website" {
   repository = var.repository
 
   platform          = "WEB"
-  production_branch = "main"
   access_token      = var.gh_access_token
 
   environment_variables = {
