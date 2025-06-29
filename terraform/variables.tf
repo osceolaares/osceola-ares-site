@@ -12,7 +12,7 @@ variable "domain_name" {
   description = "The domain name to host site"
   type        = string
 }
-  
+
 variable "comment" {
   description = "AWS Route53 Hosted Zone comment"
   type        = string
@@ -94,4 +94,10 @@ variable "amplify_redeploy_schedule_expression" {
   description = "The schedule expression for the Amplify redeploy event rule (default: every day at 6am UTC)"
   type        = string
   default     = "cron(0 6 * * ? *)"
+}
+
+variable "gh_access_token" {
+  description = "GitHub access token for CI/CD or API access"
+  type        = string
+  sensitive   = true
 }
