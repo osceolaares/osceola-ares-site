@@ -1,14 +1,16 @@
 queue_rules:
   - name: default
     batch_size: 5
-
-pull_request_rules:
-  - name: Queue Renovate PRs
-    conditions:
-      - author=renovate[bot]
+    batch_max_wait_time: 30 minutes
+    queue_conditions:
       - check-success=terraform
       - check-success=AWS Amplify Console Web Preview
       - -draft
+
+pull_request_rules:
+  - name: Queue Pre-Approved PRs
+    conditions:
+      - author~=^(renovate\[bot\]|dependabot\[bot\]|jbouse)$
     actions:
       queue:
         name: default
@@ -19,9 +21,6 @@ pull_request_rules:
   - name: Queue on approval
     conditions:
       - "#approved-reviews-by>=1"
-      - check-success=terraform
-      - check-success=AWS Amplify Console Web Preview
-      - -draft
     actions:
       queue:
         name: default
@@ -29,18 +28,6 @@ pull_request_rules:
         method: squash
       delete_head_branch: {}
 
-  - name: Queue admin PRs
-    conditions:
-      - author=jbouse
-      - check-success=terraform
-      - check-success=AWS Amplify Console Web Preview
-      - -draft
-    actions:
-      queue:
-        name: default
-      merge:
-        method: squash
-      delete_head_branch: {}
 
   - name: Pre-Approved PR commitors
     # This rule is for pre-approved commitors like Renovate, Dependabot, and jbouse.
