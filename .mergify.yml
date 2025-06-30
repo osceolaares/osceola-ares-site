@@ -9,12 +9,12 @@ queue_rules:
     batch_size: 5
     batch_max_wait_time: 30 minutes
     queue_conditions:
-      - check-success=terraform
-      - check-success=AWS Amplify Console Web Preview
-      - -draft
-    merge_conditions:
       - "#review-threads-unresolved = 0"
       - "#approved-reviews-by>=1"
+      - -draft
+    merge_conditions:
+      - check-success=terraform
+      - check-success=AWS Amplify Console Web Preview
 
 pull_request_rules:
   - name: Pre-Approved PR commitors
