@@ -6,8 +6,8 @@ pull_request_rules:
   - name: Queue Renovate PRs
     conditions:
       - author=renovate[bot]
-      # - check-success~=^test
       - check-success=terraform
+      - check-success=AWS Amplify Console Web Preview
       - -draft
       # Optionally, require a label for more granular control:
       # - label=automerge
@@ -18,8 +18,18 @@ pull_request_rules:
   - name: Queue on approval
     conditions:
       - "#approved-reviews-by>=1"
-      # - check-success~=^test
       - check-success=terraform
+      - check-success=AWS Amplify Console Web Preview
+      - -draft
+    actions:
+      queue:
+        name: default
+
+  - name: Queue admin PRs
+    conditions:
+      - author=jbouse
+      - check-success=terraform
+      - check-success=AWS Amplify Console Web Preview
       - -draft
     actions:
       queue:
