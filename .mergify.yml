@@ -9,11 +9,12 @@ pull_request_rules:
       - check-success=terraform
       - check-success=AWS Amplify Console Web Preview
       - -draft
-      # Optionally, require a label for more granular control:
-      # - label=automerge
     actions:
       queue:
         name: default
+      merge:
+        method: squash
+      delete_head_branch: {}
 
   - name: Queue on approval
     conditions:
@@ -24,6 +25,9 @@ pull_request_rules:
     actions:
       queue:
         name: default
+      merge:
+        method: squash
+      delete_head_branch: {}
 
   - name: Queue admin PRs
     conditions:
@@ -34,3 +38,6 @@ pull_request_rules:
     actions:
       queue:
         name: default
+      merge:
+        method: squash
+      delete_head_branch: {}
