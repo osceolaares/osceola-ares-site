@@ -89,15 +89,7 @@ hb:
         # - docs
         - blog
         - news
-    giscus:
-      repo: osceolaares/osceola-ares-site
-      repo_id: R_kgDOL0Mzpg
-      category_id: DIC_kwDOL0Mzps4Ce_oD
   docs:
-    giscus:
-      repo: osceolaares/osceola-ares-site
-      repo_id: R_kgDOL0Mzpg
-      category_id: DIC_kwDOL0Mzps4Ce_oD
     social_share_buttons:
       alignment: center
       media:
