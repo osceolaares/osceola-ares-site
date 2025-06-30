@@ -7,29 +7,18 @@ queue_rules:
     # It is applied to all pull requests unless overridden by a more specific rule.
     # It defines the conditions under which pull requests are queued for merging.
     batch_size: 5
-    batch_max_wait_time: 30 minutes
+    batch_max_wait_time: 5 minutes
     queue_conditions:
-      - "#review-threads-unresolved = 0"
-      - "#approved-reviews-by>=1"
+      - or:
+        - "#approved-reviews-by>=1"
+        - author=jbouse
       - -draft
+      - "#review-threads-unresolved = 0"
     merge_conditions:
       - check-success=terraform
       - check-success=AWS Amplify Console Web Preview
 
 pull_request_rules:
-  - name: Pre-Approved PR commitors
-    # This rule is for pre-approved commitors like Renovate, Dependabot, and jbouse.
-    # It automatically approves PRs created by these commitors.
-    conditions:
-      - or:
-        - author=renovate[bot]
-        - author=dependabot[bot]
-        - author=jbouse
-    actions:
-      review:
-        type: APPROVE
-        message: Automatically approving
-
   - name: delete head branch after merge but not if other PRs depend on it
     # This rule deletes the head branch of a PR after it is merged.
     # It ensures that the branch is only deleted if there are no other PRs depending on it.
@@ -113,3 +102,27 @@ pull_request_rules:
       label:
         add:
           - authors
+  
+  - name: add renovate label if the author is Renovate Bot
+    # This rule adds a label to the PR if the author is Renovate Bot.
+    # It helps identify PRs created by Renovate for dependency updates.
+    # The label 'renovate' is added to the PR.
+    # It is useful for tracking automated dependency updates.
+    conditions:
+      - author = renovate[bot]
+    actions:
+      label:
+        add:
+          - renovate
+
+  - name: add dependabot label if the author is Dependabot
+    # This rule adds a label to the PR if the author is Dependabot.
+    # It helps identify PRs created by Dependabot for dependency updates.
+    # The label 'dependabot' is added to the PR.
+    # It is useful for tracking automated dependency updates.
+    conditions:
+      - author = dependabot[bot]
+    actions:
+      label:
+        add:
+          - dependabot
