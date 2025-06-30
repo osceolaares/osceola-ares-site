@@ -9,6 +9,10 @@ imports:
   # see https://hbstack.dev/modules/look-and-feel/google-fonts/.
   - path: github.com/hbstack/google-fonts
 
+  # gallery modules.
+  - path: github.com/hbstack/gallery
+  - path: github.com/hbstack/gallery/modules/breadcrumb
+
   # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
   # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
   - path: github.com/hugomods/katex
@@ -27,9 +31,10 @@ imports:
   - path: github.com/hbstack/blog/modules/sidebar/taxonomies
 
   # blog comments engine
-  - path: github.com/hbstack/blog/modules/giscus
+  # - path: github.com/hbstack/blog/modules/giscus
   # - path: github.com/hbstack/blog/modules/disqus
   # - path: github.com/hbstack/blog/modules/utterances
+  - path: github.com/hbstack/blog/modules/emote
 
   # blog table of contents scrollspy
   - path: github.com/hbstack/blog/modules/toc-scrollspy
@@ -43,9 +48,10 @@ imports:
   - path: github.com/hbstack/blog/modules/revision
 
   # docs comments engine
-  - path: github.com/hbstack/docs/modules/giscus
+  # - path: github.com/hbstack/docs/modules/giscus
   # - path: github.com/hbstack/docs/modules/utterances
   # - path: github.com/hbstack/docs/modules/disqus
+  - path: github.com/hbstack/blog/modules/emote
 
   # docs table of contents scrollspy
   - path: github.com/hbstack/docs/modules/toc-scrollspy
