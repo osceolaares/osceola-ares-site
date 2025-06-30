@@ -41,3 +41,16 @@ pull_request_rules:
       merge:
         method: squash
       delete_head_branch: {}
+
+  - name: Pre-Approved PR commitors
+    # This rule is for pre-approved commitors like Renovate, Dependabot, and jbouse.
+    # It automatically approves PRs created by these commitors.
+    conditions:
+      - or:
+        - author=renovate[bot]
+        - author=dependabot[bot]
+        - author=jbouse
+    actions:
+      review:
+        type: APPROVE
+        message: Automatically approving
