@@ -10,6 +10,12 @@ resource "aws_amplify_app" "website" {
   }
 
   custom_rule {
+    source = "/.well-known/atproto-did"
+    status = "200"
+    target = "/well-known/atproto-did.txt"
+  }
+  
+  custom_rule {
     source = "/.well-known/<*>"
     status = "200"
     target = "/well-known/<*>"
