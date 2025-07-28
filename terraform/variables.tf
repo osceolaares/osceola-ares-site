@@ -87,7 +87,7 @@ variable "aliases" {
 variable "host_name" {
   description = "The host name for the site"
   type        = string
-  default     = null
+  default     = ""
 }
 
 variable "amplify_redeploy_schedule_expression" {
