@@ -3,11 +3,16 @@
 #   weight: 10
 
 next-meeting:
-  title: Our next regular monthly meeting is scheduled for August 25th, 2025
+  title: Our next regular monthly meeting is scheduled for January 26th, 2026
   url: meetings
   weight: 5
 
-# hamcation:
-#   title: Consider volunteering for Orlando HamCation 2026
-#   url: https://www.hamcation.com/hamcation-volunteer
-#   weigh: 15
+hamcation:
+  title: Consider volunteering for Orlando HamCation 2026
+  url: https://www.hamcation.com/hamcation-volunteer
+  weigh: 15
+
+steve-butler:
+  title: Remembering Steve Butler, NO9S (SK)
+  url: news/no9s-silentkey
+  weight: 20
