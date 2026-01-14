@@ -15,8 +15,6 @@ tags:
   - "Silent Key"
   - "NO9S"
   - "Steve Butler"
-images:
-  - "images/steve-butler-no9s.jpg"
 authors:
  - kq4afy
 ---
@@ -28,7 +26,7 @@ Steve took pride in the amateur radio hobby, enjoyed sharing it with others, and
 
 We extend our heartfelt condolences to Steve’s family, friends, and fellow amateur radio operators. His passing is a loss felt throughout our ARES group and the wider amateur radio community.
 
-![In memory of Steve Butler, NO9S](steve-butler-no9s.jpg)
+![In memory of Steve Butler, NO9S](images/steve-butler-no9s.jpg)
 
 ## Remembering Steve
 
