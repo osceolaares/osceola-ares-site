@@ -10,7 +10,7 @@ resource "aws_route53_zone" "this" {
 
 module "website" {
   source  = "cloudposse/s3-bucket/aws"
-  version = "4.10.0"
+  version = "4.11.0"
 
   bucket_name             = aws_route53_zone.this.name
   s3_object_ownership     = "BucketOwnerEnforced"
