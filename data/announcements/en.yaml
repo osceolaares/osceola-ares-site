@@ -3,16 +3,24 @@
 #   weight: 10
 
 next-meeting:
-  title: Our next regular monthly meeting is scheduled for January 26th, 2026
+  title: Our next regular monthly meeting is scheduled for March 30th, 2026
   url: meetings
   weight: 5
 
-hamcation:
-  title: Consider volunteering for Orlando HamCation 2026
-  url: https://www.hamcation.com/hamcation-volunteer
-  weigh: 15
+# hamcation:
+#   title: Consider volunteering for Orlando HamCation 2026
+#   url: https://www.hamcation.com/hamcation-volunteer
+#   weigh: 15
 
-steve-butler:
-  title: Remembering Steve Butler, NO9S (SK)
-  url: news/no9s-silentkey
+# steve-butler:
+#   title: Remembering Steve Butler, NO9S (SK)
+#   url: news/no9s-silentkey
+#   weight: 20
+
+ylpota:
+  title: YL POTA Day is coming March 7th, 2026
+  weight: 15
+
+flpota:
+  title: FL POTA Weekend is coming March 17th - 20th, 2026
   weight: 20
