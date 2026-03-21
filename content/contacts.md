@@ -32,7 +32,7 @@ menu:
 
 | Callsign | Name | Email | Position |
 | :------: | ---- | ----- | -------- |
-| {{< qrz KG4FZO >}} | Richard Halquist | <KG4ZFO@osceolacountyares.org> | Emergency Coodinator |
+| {{< qrz KG4FZO >}} | Richard Halquist | <KG4FZO@osceolacountyares.org> | Emergency Coodinator |
 | {{< qrz N4ZZG >}} | William Burchfield | <N4ZZG@osceolacountyares.org> | Net Control Manager |
 
 ## Osceola ARES
@@ -40,7 +40,7 @@ menu:
 | Callsign | Name | Email | Position |
 | :------: | ---- | ----- | -------- |
 | {{< qrz KO4POJ >}} | Luis "Lou" Corrales | <KO4POJ@osceolacountyares.org> | President |
-| {{< qrz KG4FZO >}} | Richard Halquist | <KG4ZFO@osceolacountyares.org> | Vice President |
+| {{< qrz KG4FZO >}} | Richard Halquist | <KG4FZO@osceolacountyares.org> | Vice President |
 | {{< qrz N4ZZG >}} | William Burchfield | <N4ZZG@osceolacountyares.org> | Vice President |
 | {{< qrz KK4OKZ >}} | James Cokos | <KK4OKZ@osceolacountyares.org> | Secretary |
 | {{< qrz KQ4AFY >}} | Jeremy Bouse | <KQ4AFY@osceolacountyares.org> | Treasurer |
