@@ -1,5 +1,10 @@
 # description: Osceola Amateur Radio Emergency Service
 
+params:
+  author:
+    name: "Osceola ARES"
+    email: "contact@osceolaares.org"
+
 hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
@@ -15,6 +20,7 @@ hb:
     socials:
       github: osceolaares
       bluesky: osceolacountyares.org
+      facebook: osceolaares
       rss: true
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
@@ -22,6 +28,7 @@ hb:
       _color: false # when false, remove the color of social icons.
       github: osceolaares
       bluesky: osceolacountyares.org
+      facebook: osceolaares
       rss: true
     powered_by: false
   blog:
@@ -49,6 +56,7 @@ hb:
           _color: false # when false, remove the color of social icons.
           github: osceolaares
           bluesky: osceolacountyares.org
+          facebook: osceolaares
           rss: true
       posts:
         recent_count: 0 # the number of recent posts.
@@ -162,3 +170,5 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+emote:
+  disabled: true
