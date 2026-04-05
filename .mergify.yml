@@ -10,8 +10,8 @@ queue_rules:
     batch_max_wait_time: 5 minutes
     queue_conditions:
       - or:
-        - "#approved-reviews-by>=1"
-        - author=jbouse
+          - "#approved-reviews-by>=1"
+          - author=jbouse
       - -draft
       - "#review-threads-unresolved = 0"
     merge_conditions:
@@ -19,18 +19,6 @@ queue_rules:
       - check-success=AWS Amplify Console Web Preview
 
 pull_request_rules:
-  - name: delete head branch after merge but not if other PRs depend on it
-    # This rule deletes the head branch of a PR after it is merged.
-    # It ensures that the branch is only deleted if there are no other PRs depending on it.
-    # This helps keep the repository clean and avoids cluttering with unused branches.
-    # The `force: false` option ensures that the branch is not deleted if it has
-    # other PRs that depend on it, preventing accidental loss of work.
-    conditions:
-      - merged
-    actions:
-      delete_head_branch:
-        force: false
-  
   - name: add python label if a Python file is modified
     # This rule adds a label to the PR if any Python files are modified.
     # It helps categorize the PR based on the type of files changed.
@@ -42,7 +30,7 @@ pull_request_rules:
       label:
         add:
           - python
-  
+
   - name: add terraform label if a Terraform file is modified
     # This rule adds a label to the PR if any Terraform files are modified.
     # It helps categorize the PR based on the type of files changed.
@@ -102,7 +90,7 @@ pull_request_rules:
       label:
         add:
           - authors
-  
+
   - name: add renovate label if the author is Renovate Bot
     # This rule adds a label to the PR if the author is Renovate Bot.
     # It helps identify PRs created by Renovate for dependency updates.
@@ -126,3 +114,5 @@ pull_request_rules:
       label:
         add:
           - dependabot
+merge_protections_settings:
+  reporting_method: check-runs
