@@ -15,6 +15,7 @@ hb:
     socials:
       github: osceolaares
       bluesky: osceolacountyares.org
+      facebook: osceolaares
       rss: true
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
@@ -22,6 +23,7 @@ hb:
       _color: false # when false, remove the color of social icons.
       github: osceolaares
       bluesky: osceolacountyares.org
+      facebook: osceolaares
       rss: true
     powered_by: false
   blog:
@@ -49,6 +51,7 @@ hb:
           _color: false # when false, remove the color of social icons.
           github: osceolaares
           bluesky: osceolacountyares.org
+          facebook: osceolaares
           rss: true
       posts:
         recent_count: 0 # the number of recent posts.
