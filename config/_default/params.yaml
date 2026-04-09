@@ -22,6 +22,7 @@ hb:
       _color: false # when false, remove the color of social icons.
       github: osceolaares
       bluesky: osceolacountyares.org
+      facebook: osceolaares
       rss: true
     powered_by: false
   blog:
