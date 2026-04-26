@@ -82,8 +82,12 @@ github.com/hbstack/gallery v0.13.1 h1:4raqbENd7EjTM7ump0EItIAkYQQFhnUwQ35e7wgh+4
 github.com/hbstack/gallery v0.13.1/go.mod h1:SlO4eo4aoLjjTfrqEnTEr6ocabHrqZjclWDCI1bUY+o=
 github.com/hbstack/gallery/modules/breadcrumb v0.1.1 h1:hPP+FuHcBo2nieDA3eY/f7714JBe/egECb6TRnmPHTo=
 github.com/hbstack/gallery/modules/breadcrumb v0.1.1/go.mod h1:LdbDrxkgYlIOn/x9HFrde+mpIagFayRuLjIDXL1zCHw=
+github.com/hbstack/giscus v0.1.0 h1:CmVaxSK60/oF3gmnfUd0UjqtgRK8jV36fQWUff/QuAA=
+github.com/hbstack/giscus v0.1.0/go.mod h1:AkBrbp5uSPcATouJ9g0psaozcM3NxgTrPxMJDJWwWUE=
 github.com/hbstack/giscus v0.1.1 h1:jKbA17XjAcbD59QIDUVoFOdbi9P2WzQMtOcIpG/Znuo=
 github.com/hbstack/giscus v0.1.1/go.mod h1:XElW8oNLnS0dRVFzoo9Gq8xknvz3D2PuTHC7yw9h3EE=
+github.com/hbstack/giscus v0.1.2-0.20260320185534-273cfc344090 h1:mxtt2SsDbDLHqvdG+9Mueo/1jBsZeRURxbnVFNUsng0=
+github.com/hbstack/giscus v0.1.2-0.20260320185534-273cfc344090/go.mod h1:UBV0LOgyUdX6jPaACJm45gN1650PLgpLRJetNwGmQs8=
 github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/L9aYg=
 github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vMJ4gNIWM3Vg24=
 github.com/hbstack/hb v0.16.2 h1:4hUaWygXmZA26cToXj/hXmMuQzsprNdkBuE4Rs7eIYc=
@@ -152,6 +156,8 @@ github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcP
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.1 h1:Kb8137Cp2nQJPFb6e+CdXy8nyIAJ2dFIymG4bDdaXWI=
 github.com/hugomods/giscus v0.1.1/go.mod h1:tCRkqNi/sMsLh3kjDesXZNzf4R/w+b5oc5boS/l8Jtw=
+github.com/hugomods/giscus v0.1.2-0.20240330001315-ddc0ae834b0a h1:AOD43DlxVLuLOaaePql09UFdgJqH58tcZocnb/oyb7c=
+github.com/hugomods/giscus v0.1.2-0.20240330001315-ddc0ae834b0a/go.mod h1:tCRkqNi/sMsLh3kjDesXZNzf4R/w+b5oc5boS/l8Jtw=
 github.com/hugomods/google-analytics v0.2.1 h1:591qgcVeqROhPhmI03YPiGXlb0jaIIqXDxy1HCNwD50=
 github.com/hugomods/google-analytics v0.2.1/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDyyYRLRIPitLA/aFIy8=
 github.com/hugomods/gravatar v0.2.0 h1:642HNhGN7Mw7qefNcUFJKzLoT2zJKt4IQkrS53mIUfA=
@@ -210,6 +216,7 @@ github.com/jakearchibald/idb v8.0.2+incompatible h1:yaX22MGrQ5g7LRbLI7AKpBlqUcuu
 github.com/jakearchibald/idb v8.0.2+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/krisk/Fuse v7.1.0+incompatible h1:WKrE7/HvvQQnysvOcOXk+KDlKoH+Z6S0KJcAtbglvXs=
 github.com/krisk/Fuse v7.1.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
+github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.5+incompatible h1:6XrrFNMsiTTFcVTBf2886FO2XUNtwSE+QPv1os0uAA4=
 github.com/twbs/bootstrap v5.3.5+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
