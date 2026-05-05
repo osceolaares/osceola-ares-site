@@ -1,5 +1,10 @@
 # description: Osceola Amateur Radio Emergency Service
 
+params:
+  author:
+    name: "Osceola ARES"
+    email: "contact@osceolaares.org"
+
 hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
@@ -165,3 +170,5 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+emote:
+  disabled: true
