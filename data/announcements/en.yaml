@@ -3,9 +3,15 @@
 #   weight: 10
 
 next-meeting:
-  title: Our next regular monthly meeting is scheduled for May 18th, 2026
+  title: Our next regular monthly meeting is scheduled for June 22nd, 2026
   url: meetings
   weight: 5
+
+field-day:
+  title: Join us June 27th for ARRL Field-day.
+  url:
+  weight: 10
+#ill link the facebook post for field day when posted
 
 hamcation:
   title: Join SKYWARN and become a certified storm spotter.
