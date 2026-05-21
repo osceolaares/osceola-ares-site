@@ -1,5 +1,7 @@
-# baseURL: https://osceolaares.local/
+baseURL: "http://localhost:4000/"
 title: Osceola ARES
+relativeURLs: true
+canonifyURLs: false
 copyright: "Copyright © 2022-{year} Osceola Amateur Radio Emergency Services"
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false # when true, append the default language code into URL, i.e. /docs -> /en/docs.
@@ -18,9 +20,13 @@ permalinks:
 outputs:
   home:
     - HTML
-    # - Offline        # required by PWA module for displaying the offline pages.
-    - RSS
     - SearchIndex    # required by search module.
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
     # - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
@@ -40,6 +46,11 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+
+author:
+  name: "Osceola ARES"
+  email: "contact@osceolaares.org"
+  homepage: "https://facebook.com/osceolaares"
 
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:
