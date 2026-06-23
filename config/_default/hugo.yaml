@@ -60,9 +60,14 @@ related:
   threshold: 10 # for testing, increase it to suit your case.
   toLower: false
 
-# security:
-#   funcs:
-#     getenv:
-#       - ^HUGO
-#       - CI$
-#       - PWD
+security:
+  funcs:
+    getenv:
+      - ^HUGO
+      - CI$
+      - PWD
+
+  node:
+    permissions:
+      allowRead:
+        - "*"
