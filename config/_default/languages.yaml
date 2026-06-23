@@ -2,6 +2,9 @@ en:
   disabled: false
   languageCode: ""
   languageDirection: ""
-  languageName: ""
+  label: ""
   title: ""
   weight: 0
+  params:
+    author:
+      name: "Jeremy T. Bouse"

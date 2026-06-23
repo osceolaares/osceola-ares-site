@@ -3,13 +3,13 @@
 #   weight: 10
 
 next-meeting:
-  title: Our next regular monthly meeting is scheduled for May 18th, 2026
+  title: Our next regular monthly meeting is scheduled for July 27th, 2026
   url: meetings
   weight: 5
 
-hamcation:
+skywarn:
   title: Join SKYWARN and become a certified storm spotter.
-  url: https://www.weather.gov/skywarn
+  url: https://www.weather.gov/mlb/skywarn
   weigh: 15
 
 steve-butler:
