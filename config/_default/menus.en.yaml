@@ -34,13 +34,22 @@ main:
         vendor: fas
         name: arrow-up-right-from-square
 
-  - identifier: dues
-    name: Pay dues
+  # - identifier: dues
+  #   name: Pay dues
+  #   weight: 100
+  #   url: https://www.paypal.com/ncp/payment/EEN58Z96DDWAA
+  #   params:
+  #     icon:
+  #       name: paypal
+
+  - identifier: membership
+    name: Membership
     weight: 100
-    url: https://www.paypal.com/ncp/payment/EEN58Z96DDWAA
+    url: https://forms.gle/LawruQN5E8dunm7U7
     params:
       icon:
-        name: paypal
+        vendor: fas
+        name: person-circle-plus
 
   - identifier: donate
     name: Donate
