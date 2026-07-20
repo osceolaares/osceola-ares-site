@@ -31,8 +31,7 @@ authors:
 
 This year marks 25 years of Osceola Amateur Radio Emergency Service Inc. in serving our community.
 
-Since 2001, our volunteers have been ready to step in when communications are needed most. Osceola ARES is part of the nationwide emergency service in amateur radio. From supporting emergency operations and community events to providing Skywarn activities during
- severe weather and disasters, we’ve always been committed to keeping Osceola County connected.
+Since 2001, our volunteers have been ready to step in when communications are needed most. Osceola ARES is part of the nationwide emergency service in amateur radio. From supporting emergency operations and community events to providing Skywarn activities during severe weather and disasters, we’ve always been committed to keeping Osceola County connected.
 
 
 Thank you to every volunteer, partner, and supporter who has been part of this journey. Your time, dedication, and willingness to serve have made these last 25 years possible.
