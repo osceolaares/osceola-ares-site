@@ -12,7 +12,7 @@ skywarn:
   url: https://www.weather.gov/mlb/skywarn
   weigh: 15
 
-steve-butler:
-  title: Remembering Steve Butler, NO9S (SK)
-  url: news/no9s-silentkey
-  weight: 20
+25-anniversary:
+  title: Celebrating 25 years of Osceola ARES
+  url: blog/25th-anniversary
+  weight: 10
