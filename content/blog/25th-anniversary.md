@@ -1,7 +1,7 @@
 ---
 title: "Celebrating 25 Years of Osceola ARES"
 date: 2026-07-20T12:00:00-04:00
-draft: true
+draft: false
 description: "Osceola Amateur Radio Emergency Service marks 25 years since incorporation in 2001."
 noindex: false
 featured: false
